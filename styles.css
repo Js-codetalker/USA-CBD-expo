@@ -1,0 +1,63 @@
+html,body {
+	overflow-x: hidden;
+}
+body {
+	position: relative;
+}
+.navBackground {
+	width: 100%;
+	height: 100vh;
+	background: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: left .3s ease;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.navBackground.toggle {
+	left: 100%;
+}
+.navElement {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.navIcon {
+	color: #fff;
+	font-size: 1.2em;
+}
+.fa-times {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.navText {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
+.navFirstElement {
+	margin-top: 40px;
+}
+.navElement__Arrow {
+	margin: auto 0;
+}
+.goBack {
+	transform: rotate(180deg);
+}
+.navigationBar {
+	width: 100%;
+	background: green;
+	height: 8.9vh;
+	position: fixed;
+	top: 0;
+}
+.navIcon-openMenu{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+
+}
