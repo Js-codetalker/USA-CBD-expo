@@ -270,104 +270,16 @@ let navMenu = document.getElementById('nav__menu'),
 	})	
 	eventsCloseButton.addEventListener('click', ()=> {
 		closeNavMenu(navTabs);
-	})	
+	});	
 	eventCloseButton0.addEventListener('click', ()=> {
 		closeNavMenu(navTabs);
-	})	
+	});	
 	eventCloseButton1.addEventListener('click', ()=> {
 		closeNavMenu(navTabs);
-	})	
+	});	
 	eventCloseButton2.addEventListener('click', ()=> {
 		closeNavMenu(navTabs);
-	})	
+	});	
 	eventCloseButton3.addEventListener('click', ()=> {
 		closeNavMenu(navTabs);
-	})
-/*["Chicago 2022",
-	["Why Chicago","#"],
-	["Exhibitor List","#"],
-	["Sponsor Showcase","#"],
-	["Floor Plan","#"],
-	["Tickets","#"]]
-	],*/
-
-/*let navSection = document.createElement('DIV');
-
-let goBack = document.createElement('I');
-goBack.classList.add('fas');
-goBack.classList.add('fa-chevron-right');
-navSection.appendChild(goBack)
-
-let closeNav = document.createElement('I');
-closeNav.classList.add('fas');
-closeNav.classList.add('fa-times');
-navSection.appendChild(closeNav)
-
-let info = ["section1","section2","section3"]
-
-for (section of info) {
-	let navDivition = document.createElement('A'),
-		navDivitionText = document.createElement('P'),
-		openNewSection = document.createElement('I');
-
-	navDivitionText.innerHTML = section;
-	navDivition.appendChild(navDivitionText);
-
-	openNewSection.classList.add('fas');
-	openNewSection.classList.add('fa-chevron-right');
-	navDivition.appendChild(openNewSection);
-
-	navDivition.setAttribute('href','#');
-	navSection.appendChild(navDivition);
-}
-
-documentFragment.appendChild(navSection)
-
-console.log(navSection)
-navBar.appendChild(documentFragment)*/
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	});
